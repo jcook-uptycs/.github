@@ -1,0 +1,9 @@
+name: test
+
+on:
+  branches:
+
+jobs:
+  test:
+    steps:
+      - run: env
